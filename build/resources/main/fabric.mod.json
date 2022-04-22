@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "world_commands",
+  "version": "1.0-SNAPSHOT",
+  "name": "WorldCommands",
+  "description": "A System of commands using kaptainwutax's seed finding utils",
+  "authors": [
+    "EBSmc"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "ez.ebs.worldcommands.client.WorldCommandsClient"
+    ],
+    "main": [
+      "ez.ebs.worldcommands.WorldCommands"
+    ],
+    "seedcrackerx": [
+      "ez.ebs.worldcommands.command.commands.Crack"
+    ]
+  },
+  "mixins": [
+    "WorldCommands.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric": "*",
+    "minecraft": "1.18.2"
+  }
+}

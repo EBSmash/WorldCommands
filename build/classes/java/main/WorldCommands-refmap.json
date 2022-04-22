@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "ez/ebs/worldcommands/mixin/ClientPlayerEntity": {
+      "sendChatMessage": "Lnet/minecraft/class_746;method_3142(Ljava/lang/String;)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "ez/ebs/worldcommands/mixin/ClientPlayerEntity": {
+        "sendChatMessage": "Lnet/minecraft/class_746;method_3142(Ljava/lang/String;)V"
+      }
+    }
+  }
+}
